@@ -10,12 +10,12 @@ import Navbar from './components/Navbar';
 const App = () => {
   return (
     <BrowserRouter>
-      <Navbar /> {/* Navbar displayed at the top for navigation */}
+      <Navbar /> 
       <Routes>
-        <Route path="/" element={<MainHome />} />   {/* Home Page */}
-        <Route path="/about" element={<About />} />  {/* About Page */}
-        <Route path="/contact" element={<Contact />} /> {/* Contact Page */}
-        <Route path="*" element={<NoPage />} />      {/* Catch-all for 404 */}
+        <Route path="/" element={<MainHome />} />  
+        <Route path="/about" element={<About />} />  
+        <Route path="/contact" element={<Contact />} /> 
+        <Route path="*" element={<NoPage />} />     
       </Routes>
     </BrowserRouter>
   );
