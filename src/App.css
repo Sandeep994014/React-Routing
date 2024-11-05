@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.form-heading {
+  font-size: 2rem; /* Set font size */
+  color: #333; /* Text color */
+  font-weight: bold; /* Make text bold */
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Space below heading */
+  text-transform: uppercase; /* Optional: make text uppercase */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Outlet , Link } from 'react-router-dom';
 
 const MainHome = () => {
     return (
@@ -37,6 +38,7 @@ const MainHome = () => {
               ))}
             </div>
           </section>
+          <Outlet />
         </div>
       );
     };
